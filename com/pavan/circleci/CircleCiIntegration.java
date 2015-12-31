@@ -520,12 +520,11 @@ public class CircleCiIntegration {
 
 			if(System.getProperty("env.circlecibase")!=null){
 
-				pathToDownload = String.format("%s/Goibibo_prod.apk", System.getProperty("env.circlecibase"));
+				pathToDownload = String.format("%s/MyApp.apk", System.getProperty("env.circlecibase"));
 
 			}else{
 
-				pathToDownload = "/Users/pooja/automationCode/circleCiGoIbibo/apks/Goibibo_prod.apk";
-				//pathToDownload = "/Users/pavan/Desktop/Goibibo_prod.apk";
+				pathToDownload = "/Users/pavan/Desktop/MyApp.apk";
 
 			}
 
